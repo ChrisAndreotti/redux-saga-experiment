@@ -1,3 +1,17 @@
+Simple React app that gets, creates and deletes users, with the goal of exploring [Redux-saga](https://github.com/redux-saga/redux-saga) for managing application side-effects. 
+
+This project explores the following key areas:
+* Importing and applying Saga middleware to a Redux store
+* Dispatching redux actions from sagas using `put`
+* Creating watcher and worker sagas to make and manage API calls using ES6 JavaScript [Generator functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators#Generator_functions) and redux-saga effects `takeEvery`, `takeLatest`, `take`, `call` and `fork`
+* Error handling within saga try..catch blocks
+
+Please note, the application also relies on the following important dependencies:
+* The [Herokuapp API](https://rem-rest-api.herokuapp.com/), a free, publicly available REST API for getting, creating and deleting users. No API key was required.
+* [Reactstrap](https://reactstrap.github.io/) for UI and components
+
+Examples are taken from the [Udemy Redux Saga course](https://www.udemy.com/redux-saga/learn/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
