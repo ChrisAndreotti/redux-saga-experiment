@@ -14,7 +14,6 @@ export default function users(state = INITIAL_STATE, action) {
             }
         }
         case Types.USERS_ERROR: {
-            console.log(action.payload.error);
             return {
                 ...state,
                 error: action.payload.error,
